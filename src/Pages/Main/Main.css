@@ -1,0 +1,150 @@
+#backgroundImage{
+    width: 100%;
+    background-image: url('https://wallpapers.com/images/hd/farm-hen-slwh6b5yaocw5edx.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+#invisible{
+    width:100%;
+    height:700px;
+}
+#Main{
+    height: 100dvh;
+}
+.parallax{
+    /*overflow:hidden !important;*/
+    scrollbar-width: 0 !important;
+}
+.parallax::-webkit-scrollbar{
+    display:none !important;
+}
+#diseaseDict{
+    padding-top: 40px;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-size: 48px;
+    color:#333;
+}
+#mainTitle{
+    padding-top: 200px;
+    font-size:90px;
+    color: white;
+    font-family:'Helvetica','Arial',sans-serif;
+    font-weight: 548;
+    letter-spacing: 0.05em;
+}
+
+#mainSubTitle{
+    font-size:30px;
+    color: white;
+    font-family:'Helvetica','Arial',sans-serif;
+    font-weight: 548;
+    letter-spacing: 0.05em; 
+}
+#gridDisplay{
+    display: grid;
+    background-color: aliceblue;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 1600px;
+   grid-template-rows: repeat(3,500px);
+}
+.textCover{
+    background-color: white;
+    width:80%;
+    margin-top: 100px;
+    height:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.explainp{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    font-family: 'Untitled Sans';
+    font-weight: 400;
+    
+
+}
+#explainh1{
+    font-size: 52px;
+    font-family: 'freight-big-pro';
+    line-height: 98px;
+}
+.explainh3{
+    font-size:31px;
+    font-family: 'Untitled Sans';
+}
+.detectButton{
+    cursor: pointer;
+    width:180px;
+    height:50px;
+    box-shadow: 5px 5px 5px darkgreen;
+    transition: transform 0.01s ease-in;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 700;
+}
+.detectButton:hover{
+    transform: translate(2px,2px);
+    box-shadow: 2px 2px 2px darkgreen;
+}
+
+.grid{
+    width:700px;
+    margin-top: 40px;
+    height: 500px;
+    background-color: yellow;
+    
+}
+.grid.explain{
+    position: absolute;
+    background-color: antiquewhite;
+    left: 60px;
+    width:1400px;
+    height:850px;
+    
+    
+}
+.first{
+    margin-left: auto;
+    background-image: url('https://www.thespruce.com/thmb/ksPOfwNVoe4Tfx6D2dR0PiPL-hI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/01HeroHorizontal-17941540af6b42b19263541b2773f00c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-row: 3;
+   
+}
+.second{
+    margin-right: auto;
+    grid-row: 3;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/603948a2d3a5756718cb3a68/1622820760774-RUBAVC0Q82BMY0ZD37MD/chicken+feed+costs');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.dictButton{
+    cursor: pointer;
+    width:180px;
+    height:50px;
+    box-shadow: 5px 5px 5px crimson;
+    transition: transform 0.01s ease-in;
+    transition: transform 0.01s ease-in;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 700;
+}
+.dictButton:hover{
+    transform: translate(2px,2px);
+    box-shadow: 2px 2px 2px crimson;
+}
+
+#detectorTitle{
+    padding-top: 40px;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-size: 48px;
+    color:#333;
+}

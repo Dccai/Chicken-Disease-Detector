@@ -1,0 +1,54 @@
+.conteudo{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.carousel{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap:1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 500px;
+    min-width: 1190px;
+    border: 14px solid rgb(104, 31, 31);
+    margin-bottom: 20px;
+    padding-top: 30px;
+    background-color: #E0C9A6 ;
+}
+.cardTitle{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Trocchi', serif;
+    line-height: 45px;
+    font-size: 60px;
+    display: block;
+    color:#7c795d;
+    font-weight: normal;
+}
+.cardP{
+width:70%;
+margin-left: auto;
+margin-right: auto;
+color: #4c4a37;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 18px; 
+ line-height: 32px;
+margin-bottom: 30px;
+}
+.cardImage{
+    max-height: 33%;
+    max-width: 33%;
+    }
