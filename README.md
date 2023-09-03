@@ -2,9 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+## Setup Process (READ THIS PART! VERY IMPORTaNT!)
+Copy The Github Code Into Whatever Code Editor You Have. That Part Of The Process Is Self Explanatory. Also, Make Sure To Create A React App To Store The Github Code. Although The Convolution Neural Network Model Should Be Saved As A File In The Source Code, I Would Still Download The Kaggle Dataset I Used In Case The Saved Model Has Not Been Saved (This Shouldn't Be A Worry Though). If It Is Not Saved, Just Retrain The Model Using The DiseaseDetect.py File And Uncomment The Save Model Line At The End To Save The Model (If You Must Retrain, Make Sure To Delete The chickenDisease.keras file, Which May Be Contaminated Or Something). Move the newly trained keras file into the flask-server folder. The Training And Testing Dataset Can Be Downloaded Through This Link: (https://www.kaggle.com/datasets/allandclive/chicken-disease-1?select=Train). I Would Download It Just In Case And Change The Paths (The Paths To The Training And Testing Dataset May Be Different For You) For The Read_CSV Functions. The Training The Convolution Neural Network And Downloading The Dataset Parts Are Optional And Should Only Be Done If The Website Isn't Working For Some Reason. The Next Part Is Necessary. To Allow The Tensorflow Convolution Neural Network To Be Used, Make Sure To Turn On The server.py By First Typing cd flask-server And Then Typing python server.py To Turn On Flask Server. In Addition, If The Proxy Or localhost Location Is Different For You (Mine is localhost:5000), You May Need To Set The Proxy Link In Packages.json To Your Localhost Proxy For The Flask Server. Also, I Would Go Through The Imports To See If There Are Any Libraries Your Code Editor Does Not Have (Such As TensorFlow). Have Fun Using This Website!
 
 ### `npm start`
 
