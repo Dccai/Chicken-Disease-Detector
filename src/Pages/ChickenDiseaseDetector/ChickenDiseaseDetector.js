@@ -25,6 +25,7 @@ export function ChickenDiseaseDetector(){
         let imageArray=[];
         for (let x=0;x<e.currentTarget.images.files.length;x++){
             let reader =new FileReader();
+            console.log(e.currentTarget)
             reader.readAsDataURL(e.currentTarget.images.files[x])
             reader.onload=async()=>{
                 let objec={data:reader.result};
